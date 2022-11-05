@@ -13,7 +13,7 @@ jobs:
                 uses: ./
                 with:
                     ssh-private-key: |                        
-                        ${{ secrets.SSH_AZR }}
+                        ${{secrets.SSH_AZR}}
             -   run: |
                     git clone git@ssh.dev.azure.com:v3/rakeshrakshit/USDesk/USDeskForJava
 
